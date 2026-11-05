@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: lab2-compose-app
+    ports:
+      - "5001:5000"
+
+  redis:
+    image: redis:7-alpine
+    container_name: lab2-redis

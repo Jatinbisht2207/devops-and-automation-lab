@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Kubernetes binary accidentally downloaded into project
+Lab-2-Containerization/kubectl
